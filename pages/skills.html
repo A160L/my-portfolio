@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./../styles/main.css" />
   </head>
   <body>
     <nav class="nav">
       <div class="container">
         <div class="nav-row">
-          <a href="./index.html" class="logo"><strong>My</strong> portfolio</a>
+          <a href="./../index.html" class="logo"
+            ><strong>My</strong> portfolio</a
+          >
 
           <button class="dark-mode-btn">
             <img
-              src="./img/icons/sun.svg"
+              src="./../images/icons/sun.svg"
               alt="Light mode"
               class="dark-mode-btn__icon"
             />
             <img
-              src="./img/icons/moon.svg"
+              src="./../images/icons/moon.svg"
               alt="Dark mode"
               class="dark-mode-btn__icon"
             />
@@ -28,14 +30,14 @@
 
           <ul class="nav-list">
             <li class="nav-list__item">
-              <a
-                href="./index.html"
-                class="nav-list__link nav-list__link--active"
-                >Projects</a
-              >
+              <a href="./index.html" class="nav-list__link">Projects</a>
             </li>
             <li class="nav-list__item">
-              <a href="./skills.html" class="nav-list__link">Skills</a>
+              <a
+                href="./skills.html"
+                class="nav-list__link nav-list__link--active"
+                >Skills</a
+              >
             </li>
             <li class="nav-list__item">
               <a href="./contacts.html" class="nav-list__link">Contacts</a>
@@ -47,28 +49,18 @@
 
     <main class="section">
       <div class="container">
-        <div class="project-details">
-          <h1 class="title-1">Video service</h1>
+        <h1 class="title-1">Skills</h1>
 
-          <img
-            src="./img/projects/02-big.jpg"
-            alt=""
-            class="project-details__cover"
-          />
-
-          <div class="project-details__desc">
-            <p>Skills: Soon...</p>
-          </div>
-
-          <a
-            href="https://github.com/A160L"
-            class="btn-outline"
-            target="_blank"
-          >
-            <img src="./img/icons/gitHub-black.svg" alt="" />
-            GitHub repo
-          </a>
-        </div>
+        <ul class="content-list">
+          <li class="content-list__item">
+            <h2 class="title-2">Frontend</h2>
+            <p>HTML, CSS, JavaScript</p>
+          </li>
+          <li class="content-list__item">
+            <h2 class="title-2">Backend</h2>
+            <p>Soon...</p>
+          </li>
+        </ul>
       </div>
     </main>
 
@@ -78,14 +70,7 @@
           <ul class="social">
             <li class="social__item">
               <a href="https://github.com/A160L" target="_blank"
-                ><img src="./img/icons/gitHub.svg" alt="Link"
-              /></a>
-            </li>
-            <li class="social__item">
-              <a
-                href="https://youtu.be/dQw4w9WgXcQ?si=ge_PiVkG1jL6ZrTA"
-                target="_blank"
-                ><img src="./img/icons/linkedIn.svg" alt="Link"
+                ><img src="./../images/icons/gitHub.svg" alt="Link"
               /></a>
             </li>
           </ul>
@@ -96,6 +81,6 @@
       </div>
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="./../scripts/script.js"></script>
   </body>
 </html>
