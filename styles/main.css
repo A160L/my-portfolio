@@ -59,6 +59,8 @@ body {
   /* Light mode */
   background-color: var(--page-bg);
   color: var(--text-color);
+
+  scroll-behavior: smooth;
 }
 
 /* General */
@@ -292,6 +294,7 @@ body {
 }
 
 .project__img {
+  height: 278px;
   border-radius: 10px;
 }
 
